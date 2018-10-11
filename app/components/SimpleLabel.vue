@@ -9,7 +9,7 @@ import Vue from 'nativescript-vue';
 import { Component } from 'vue-property-decorator';
 
   @Component({})
-  export default class Simple extends Vue{
+  export default class SimpleLabel extends Vue{
     get computedText() {
       return 'Computed text';
     }
