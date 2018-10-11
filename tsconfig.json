@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "sourceMap": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "app/components",
+    "app/main.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
